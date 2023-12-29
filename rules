@@ -1,33 +1,53 @@
 [
   {
-    "id": "5315316848292970751",
+    "id": "4913813739256958089",
+    "port": "",
     "outboundTag": "direct",
+    "ip": [],
+    "domain": [],
     "protocol": [
       "bittorrent"
     ],
     "enabled": true
   },
   {
-    "id": "5519367471854149156",
+    "id": "5700009241373178416",
     "port": "",
-    "outboundTag": "direct",
-    "ip": [],
-    "domain": [
-      "hnvwoos01",
-      "sharepoint"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "5447668300780299794",
+    "inboundTag": [],
     "outboundTag": "block",
+    "ip": [],
     "domain": [
       "geosite:category-ads-all"
     ],
     "enabled": true
   },
   {
-    "id": "4755109804150310025",
+    "id": "4683440797987092354",
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [
+      "geosite:cn",
+      "hnvwoos01",
+      "sharepoint"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "5153462351369382039",
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "steamcommunity",
+      "battle",
+      "porn"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "4980852211210048702",
+    "port": "",
     "outboundTag": "proxy",
     "ip": [
       "geoip:cloudflare",
@@ -47,9 +67,12 @@
     "enabled": true
   },
   {
-    "id": "5701190425000208715",
+    "id": "5537566952328717245",
     "port": "0-65535",
     "outboundTag": "direct",
+    "ip": [],
+    "domain": [],
+    "protocol": [],
     "enabled": true
   }
-]	
+]
