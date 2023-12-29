@@ -1,0 +1,55 @@
+[
+  {
+    "id": "5315316848292970751",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "5519367471854149156",
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [
+      "hnvwoos01",
+      "sharepoint"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "5447668300780299794",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "4755109804150310025",
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:cloudflare",
+      "geoip:cloudfront",
+      "geoip:facebook",
+      "geoip:fastly",
+      "geoip:google",
+      "geoip:netflix",
+      "geoip:telegram",
+      "geoip:twitter"
+    ],
+    "domain": [
+      "geosite:gfw",
+      "geosite:greatfire",
+      "geosite:tld-!cn"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "5701190425000208715",
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "enabled": true
+  }
+]	
