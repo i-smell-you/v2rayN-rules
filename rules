@@ -1,16 +1,9 @@
 [
   {
-    "id": "4683440797987092354",
+    "id": "",
     "port": "",
     "outboundTag": "direct",
-    "ip": [
-      "223.5.5.5/32",
-      "119.29.29.29/32",
-      "180.76.76.76/32",
-      "114.114.114.114/32",
-      "geoip:private",
-      "geoip:cn"
-    ],
+    "ip": [],
     "domain": [
       "geosite:cn",
       "netbird",
@@ -19,8 +12,8 @@
     ],
     "enabled": true
   },
-  {
-    "id": "5153462351369382039",
+  { 
+    "id": "",
     "port": "",
     "outboundTag": "proxy",
     "ip": [],
